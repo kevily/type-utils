@@ -1,5 +1,5 @@
 {
-    "name": "@1k/ts-tools",
+    "name": "ts-types",
     "version": "1.0.1",
     "description": "",
     "main": "dist/index.js",
