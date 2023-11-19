@@ -11,7 +11,7 @@ npm install typescript@^5.1.3 --save-dev
 ## Installation
 
 ```sh
-npm install type-tools
+npm install 1k-types
 ```
 
 ## Use
