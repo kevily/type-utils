@@ -1,5 +1,5 @@
 {
-    "name": "type-tools",
+    "name": "type-utils",
     "version": "1.0.1",
     "description": "",
     "main": "dist/index.js",
