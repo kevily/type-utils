@@ -1,4 +1,4 @@
-# type-tools
+# 1k-types
 
 > TypeScript's largest type utility library
 
