@@ -15,7 +15,7 @@ type UnReadonlyDeep<R> = {
  * UnReadonly<readonluObj, 'deep'> // { a: string; b: { a: string } }
  * ```
  */
-export type UnReadonly<R, depth extends Depth = 'flat'> = {
+export type UnReadonly<R, D extends Depth = 'flat'> = {
     flat: UnReadonlyFlat<R>
     deep: UnReadonlyDeep<R>
-}[depth]
+}[D]
