@@ -28,7 +28,7 @@ type PickRequiredPenetrable<T> = PickRequiredFlat<T> & {
  * type requiredDeepRecordType = PickRequired<objectType, 'penetrable'> // { c: string b: { a: string; b?: number }, d?: { a: string } }
  * ```
  */
-export type PickRequired<Target, D extends $Depth = 'flat'> = {
+export type PickRequired<Target extends object, D extends $Depth = 'flat'> = {
     flat: PickRequiredFlat<Target>
     deep: PickRequiredDeep<Target>
     penetrable: PickRequiredPenetrable<Target>
